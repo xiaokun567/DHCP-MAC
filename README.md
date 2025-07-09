@@ -22,7 +22,7 @@ pip install -r requirements.txt
 # 在所有网络接口上运行，并通过http://localhost:8080提供网页界面
 python dhcp_mac_sniffer.py
 
-# 指定特定网接口和自定义端口
+# 指定特定网接口和自定义端口（web页面可以修改网口）
 python dhcp_mac_sniffer.py --iface Ethernet --port 8080
 ```
 
